@@ -23,8 +23,8 @@ function currentLine(katzDeliLine) {
         line += `${i}. ${katzDeliLine[i-1]}, `;
       }
       return line;
-    } else {
+    } 
       return 'The line is currently empty.';
-    }
+    
   }
 }
